@@ -1,0 +1,50 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "create", "new", "account"],
+    "bot_response": "Click on the create account button available ",
+    "required_words": ["new","create", "account"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "delete", "my", "existing","account"],
+    "bot_response": "Kindly follow the instructions given under 'Delete account'.",
+    "required_words": ["delete", "account"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "generate", "net", "banking","online", "account"],
+    "bot_response": "Call this number: 044-XXXXXXXX",
+    "required_words": ["net", "banking","online"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "get", "new", "credit","card", "cards","creditcard"],
+    "bot_response": "Kindly fill the form given below to register for a credit card.",
+    "required_words": ["credit","card"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "get", "new", "debit","card", "cards","debitcard"],
+    "bot_response": "Kindly fill the form given below to register for a debit card.",
+    "required_words": ["debit","card"]
+  }
+]
